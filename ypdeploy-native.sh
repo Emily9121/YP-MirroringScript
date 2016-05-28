@@ -16,7 +16,7 @@ case "$KERNEL" in
 	Linux)
 	;;
 	Darwin)
-	echo "Your computer is bad and you should fell bad."
+	echo "Your server is bad and you should feel bad."
 	exit 1
 	;;
 	*)
