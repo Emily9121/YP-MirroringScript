@@ -4,7 +4,9 @@ Help you mirror YP from a scratch Debian Jessie install
 It take either two or three argument, example
 
 ypdeploy-native.sh mymirrorurl.com mymail@address.com
+
 or
+
 ypdeploy-native.sh mymirrorurl.com mymail@address.com --nossl
 
 without --nossl, it will create a new certificate from LetsEncrypt for the domain you set up and configure it to be renewed every month
